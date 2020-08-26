@@ -1,0 +1,306 @@
+body {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 0;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  top: 300px;
+  padding-left: 50px;
+  z-index: 3;
+}
+
+h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #ff52bf;
+}
+
+/********************CLASS SELECTORS*************/
+
+/********Menu Bar******/
+.logo_img{
+  margin-left: 3rem;
+}
+
+.menu_bar{
+  margin-top: 2rem;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  z-index:3;
+}
+
+.menu_btn{
+  border-radius: 28px;
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  padding: 10px 50px 10px 50px;
+
+}
+
+.menu_btn:hover {
+  background: #ff52bf;
+  text-decoration: none;
+  color: white;
+}
+
+
+/*********** Top container **********/
+.row{
+  margin-left: 0px;
+  padding: 30 0;
+  text-align: left;
+}
+
+.space_col{
+  padding-left: 200px;
+}
+
+.bg_top_ctn{
+  background-color: #EBFBFF;
+  opacity: 1;
+  height: 800px;
+  width: 100%;
+  z-index: -1;
+}
+
+.subline{
+  position: absolute;
+  top: 350px;
+  z-index: 2;
+}
+
+.subtitle {
+  position: absolute;
+  top: 450px;
+  width: 550px;
+  padding-left: 50px;
+}
+
+.bg{
+  position: absolute;
+  z-index: 1;
+  height: 800px;
+  margin-top: 0;
+  bottom: 0px;
+}
+
+.mockup {
+  position: relative;
+  top: 30px;
+  left: 700px;
+  z-index: 2;
+  width:720px;
+}
+
+/* Botao do Get Started do top container */
+
+.btn1 {
+
+  background-color:#ff52c0;
+  border-radius:28px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Poppins;
+  font-size:17px;
+  padding:16px 61px;
+  text-decoration:none;
+  border-style: none;
+  position: absolute;
+  top: 600px;
+  left: 50px;
+  z-index: 3;
+}
+
+.btn1:hover {
+  background-color:#ffffff;
+  color: black;
+  text-decoration: none;
+}
+
+
+
+/************* Middle Container **************/
+.middle_containner {
+  position: relative;
+  top:200px;
+}
+
+/* Headers & paragraphs */
+.h3_spacing{
+  margin: 100px 0 20px;
+}
+.h3conversation{
+  position: absolute;
+  left: 700px;
+  display: inline-block;
+}
+
+.p2{
+  position: absolute;
+  left: 700px;
+  top:200px;
+  display: flex;
+  width: 35%;
+  padding-right: 20px;
+}
+
+/* Boxes */
+.grow_together{
+  float: left;
+  border-width: 2px;
+  border-radius: 20px;
+  margin-left: 200px;
+  padding-left: 50px;
+  padding-top: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.Flowing_conversations{
+  position: relative;
+  top:50px;
+  display: inline-block;
+  margin-left: 200px;
+  padding-right: 50px;
+  padding-top: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.Your_users{
+  position: relative;
+  top:100px;
+  display: inline-block;
+  margin-left: 200px;
+  padding-left: 50px;
+  padding-top: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+/*  CTA  */
+
+.call{
+  background-color: white;
+  position: relative;
+  top:380px;
+  width: 40%;
+  padding:50px 50px 100px 50px;
+  margin: auto;
+  text-align: center;
+  border-style:solid;
+  border-color: white;
+  margin-bottom: 10px;
+  z-index: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+
+.btn_cta {
+  background-color:#ff52c0;
+  border-radius:28px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Poppins;
+  font-size:17px;
+  text-decoration:none;
+  border-style: none;
+  padding: 10px 50px 10px 50px;
+  text-decoration: none;
+  position: absolute;
+  left:200px;
+  margin-top: 30px;
+
+}
+
+.btn_cta:hover {
+  background: white;
+  color: black;
+}
+
+/*  Bottom Container */
+
+.bottom_containner {
+  background-color: #00252e;
+  color: white;
+  position: relative;
+  top:450px;
+  padding-left: 50px;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+/* Footer */
+
+footer{
+  background-color: #00252e;
+  position: relative;
+  top:450px;
+  color: white;
+  margin-bottom: 0;
+  text-align: right;
+  font-size: 12px;
+
+}
+.p_footer{
+  width: 100%;
+}
+
+
+/********************IMG SELECTORS*************/
+
+
+.grow_img{
+  float:right;
+}
+
+.flow_img{
+  float:left;
+  margin-left: 50px;
+}
+
+.user_img{
+  float:right;
+}
+
+.logofinal{
+  filter: brightness(0) invert(1);
+  display: block;
+  margin-top: 50px;
+}
+
+.fab{
+  padding: 0 10px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 400px) {
+  .mockup{
+    position: relative;
+    top:100px;
+    width: 375px;
+  }
+  .bg{
+    width: 375px;
+  }
+
+  h1, h2, h3{
+    text-align: center;
+  }
+}
